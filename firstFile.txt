@@ -1,0 +1,8 @@
+This is my first file while using Git:
+1) In order to create a file use touch filename.extension style while for a folder use mkdir foldername
+2) When a file has been created, use the command git add filename.extension and afterwards git commit -m "write the purpose of your operation"; where m stands for message
+3) If you have created multiple files within a folder and you want all of them to be added use command git add . (where dot denotes all files)
+4) Once you have added and committed the files, you can see your operations via command git status
+5) If you want to restore a deletd file (using command rm filename.extension where rm is remove), use command git restore filename.extension and commit it as well for the record.
+6) You can use multiple operations by adding && between your commands in a single line
+7) While using vi (visual instrument), in order to write any thing press "i" (that stands for insert). ASnd, once you have completed press ESC key to go to command mode and write :wq (that stands for write and quit meaning that save and quit). 
