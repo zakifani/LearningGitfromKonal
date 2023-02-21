@@ -5,5 +5,5 @@ This is my first file while using Git:
 4) Once you have added and committed the files, you can see your operations via command git status
 5) If you want to restore a deletd file (using command rm filename.extension where rm is remove), use command git restore filename.extension and commit it as well for the record.
 6) You can use multiple operations by adding && between your commands in a single line
-7) While using vi (visual instrument), in order to write any thing press "i" (that stands for insert). ASnd, once you have completed press ESC key to go to command mode and write :wq (that stands for write and quit meaning that save and quit). 
+7) While using vi (visual instrument), in order to write any thing press "i" (that stands for insert). And, once you have completed press ESC key to go to command mode and write :wq (that stands for write and quit meaning that save and quit). 
 To see all your progress use git log command
